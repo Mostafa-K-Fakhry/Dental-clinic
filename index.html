@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>عيادة الأسنان - د. مصطفى خالد</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ناف بار باستخدام Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container nav-container">
+        <a class="navbar-brand logo" href="#">د. مصطفى خالد</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">عن العيادة</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">الخدمات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">تواصل معنا</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- قسم الهيرو -->
+    <header class="hero">
+      <div class="overlay">
+        <h1>ابتسامتك المثالية تبدأ هنا</h1>
+        <p>أحدث تقنيات تجميل وعلاج الأسنان مع رعاية متميزة وخبرة احترافية</p>
+        <a
+          href="https://wa.me/201020699718?text=مرحبًا%20دكتور%20مصطفى%20خالد%20،%20أود%20حجز%20موعد%20في%20العيادة%20.%20من%20فضلك%20أخبرني%20بالمواعيد%20المتاحة"
+          class="btn"
+          target="_blank"
+        >
+          احجز الآن
+        </a>
+      </div>
+    </header>
+
+    <!-- عن العيادة -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2>عن العيادة</h2>
+        <p>
+          نحن نقدم خدمات متكاملة لتجميل وعلاج الأسنان باستخدام أحدث الأجهزة.
+          فريقنا يهتم بأدق التفاصيل ليمنحك ابتسامة مثالية وتجربة مريحة.
+        </p>
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+             <div class="carousel-item active">
+              <img src="كرسي الكشف.jpg" class="d-block w-100" alt="كرسي الكشف" />
+            </div>
+            <div class="carousel-item ">
+              <img src="المعدات.jpg" class="d-block w-100" alt="المعدات الطبية" />
+            </div>
+            <div class="carousel-item">
+              <img src="الجلسة.jpg" class="d-block w-100" alt="جلسة الكشف" />
+            </div>
+            <div class="carousel-item">
+              <img src="السعادة بعد الكشف.jpg" class="d-block w-100" alt="بعد انتهاء الجلسة" />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- الخدمات باستخدام Bootstrap Grid -->
+    <section id="services" class="services">
+      <div class="container">
+        <h2>خدماتنا</h2>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-12 mb-4">
+            <div class="card">
+              <i class="fa-solid fa-tooth"></i>
+              <h3>تجميل الأسنان</h3>
+              <p>ابتسامة هوليوود بأحدث التقنيات والمواد العالمية.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 mb-4">
+            <div class="card">
+              <i class="fa-solid fa-syringe"></i>
+              <h3>علاج العصب</h3>
+              <p>أحدث أجهزة علاج الجذور لضمان أقل ألم وراحة كاملة.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-12 mb-4">
+            <div class="card">
+              <i class="fa-solid fa-brush"></i>
+              <h3>تبييض وتنظيف</h3>
+              <p>تبييض آمن وفعال وتنظيف شامل لأسنان صحية وجذابة.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- تواصل معنا -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>تواصل معنا</h2>
+        <p>للاستفسارات أو الحجز المباشر عبر الواتساب</p>
+        <a href="https://wa.me/201020699718" class="btn">تواصل عبر الواتساب</a>
+      </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer>
+      <div class="container">
+        <p>© 2024 عيادة د. مصطفى خالد. جميع الحقوق محفوظة.</p>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
