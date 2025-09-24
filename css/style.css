@@ -12,7 +12,7 @@ body {
   scroll-behavior: smooth;
 }
 
-/* ناف بار - تعديلات لـ Bootstrap Navbar مع RTL */
+
 .navbar {
   background: #fff;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -31,7 +31,7 @@ body {
   color: #333 !important;
   font-weight: 600;
   transition: color 0.3s ease;
-  margin-right: 1.5rem; /* RTL: margin-right بدلاً من left */
+  margin-right: 1.5rem; 
 }
 .navbar-nav .nav-link:hover {
   color: #00bfa6 !important;
@@ -41,7 +41,7 @@ body {
   padding: 0.5rem;
 }
 
-/* الهيرو */
+
 .hero {
   position: relative;
   background: url('../Background.jpg') center/cover no-repeat;
@@ -51,7 +51,7 @@ body {
   justify-content: center;
   text-align: center;
   color: #fff;
-  margin-top: 70px; /* ارتفاع الناف بار */
+  margin-top: 70px; 
 }
 .overlay {
   background: rgba(0,0,0,0.55);
@@ -84,7 +84,7 @@ body {
   text-decoration: none;
 }
 
-/* الأقسام */
+
 section {
   padding: 5rem 1rem;
   text-align: center;
@@ -106,14 +106,14 @@ h2 {
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
-/* الخدمات - تعديلات لـ Bootstrap Cards */
+
 .card {
   background: #fff;
   padding: 2rem 1rem;
   border-radius: 12px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  height: 100%; /* لتوحيد الارتفاع */
+  height: 100%; 
   text-align: center;
 }
 .card i {
@@ -130,7 +130,7 @@ h2 {
   color: #333;
 }
 
-/* الفوتر */
+
 footer {
   background: #00bfa6;
   color: #fff;
@@ -142,7 +142,7 @@ footer .container {
   margin: auto;
 }
 
-/* ريسبونسف - Bootstrap يتعامل مع معظم الـ responsive، لكن نضيف تعديلات إضافية */
+
 @media (max-width: 768px) {
   .hero {
     height: 80vh;
@@ -180,7 +180,7 @@ footer .container {
     font-size: 0.9rem;
   }
 
-  /* RTL للـ Navbar في الموبايل */
+ 
   .navbar-nav {
     text-align: center;
     padding: 1rem 0;
@@ -205,4 +205,5 @@ footer .container {
   h2 {
     font-size: 1.6rem;
   }
+
 }
